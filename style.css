@@ -1,0 +1,512 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+body{
+    background-color: black;
+}
+hr{
+    height:3px;
+    color: #edae2aff;
+    background-color: #edae2aff;
+    border-width: 0px;
+}
+.fixed{position:fixed; top:0}
+
+#barraSuperior{
+    border-bottom: #edae2aff solid 3px;
+    padding: 20px;
+}
+h1{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+#negro{
+    color: black;
+}
+
+/*---FACTSHEET---*/
+.factsheet{
+    position: relative;
+    display: inline-block;
+    text-align: left;
+}
+.titulo{
+    position: relative;
+    display: inline-block;
+    text-align: left;
+}
+.paloma{
+    padding: 20px;
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+.h1press{
+    position: absolute;
+    left: 500px;
+    top: 50px;
+}
+.h3descr{
+    position: absolute;
+    top: 65px;
+    left: 440px;
+}
+.h3feat{
+    position: absolute;
+    top: 275px;
+    left: 440px;
+}
+.h3Aw{
+    padding: 20px;
+}
+.h3AwSub{
+    text-align: center;
+}
+.pdescr{
+    padding: 25px;
+    line-height: 25px;
+    position: absolute;
+    top: 100px;
+    left: 440px;
+}
+.pfeat{
+    padding: 20px;
+    line-height: 35px;
+    position: absolute;
+    top: 300px;
+    left: 440px;
+}
+.texto-encima0{
+    position: absolute;
+    top: 65px;
+    left: 80px;
+}
+.texto-encima00{
+    position: absolute;
+    top: 115px;
+    left: 80px;
+}
+.texto-encima01{
+    position: absolute;
+    top: 148.5px;
+    left: 80px;
+}
+.texto-encima02{
+    position: absolute;
+    top: 182px;
+    left: 80px;
+}
+.texto-encima1{
+    position: absolute;
+    top: 215.5px;
+    left: 80px;
+}
+.texto-encima2{
+    position: absolute;
+    top: 249px;
+    left: 80px;
+}
+.texto-encima3{
+    position: absolute;
+    top: 282.5px;
+    left: 80px;
+}
+.texto-encima4{
+    position: absolute;
+    top: 316px;
+    left: 80px;
+}
+.texto-encima5{
+    position: absolute;
+    top: 349.5px;
+    left: 80px;
+}.texto-encima6{
+    position: absolute;
+    top: 383px;
+    left: 80px;
+}.texto-encima7{
+    position: absolute;
+    top: 416.5px;
+    left: 80px;
+}
+.texto-encima8{
+    position: absolute;
+    top: 450px;
+    left: 80px;
+}
+/*---FIN FACTSHEET---*/
+
+#premios{
+    display:block;
+    margin:auto;    
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 800px;
+   
+}
+
+li{
+    margin-left: 35px;
+    align-items:right;
+}
+
+a{
+    
+    padding: 20 px;
+    color: white; 
+    font-family: 'Raleway', sans-serif;
+    text-decoration:none;
+}
+
+h3{
+    color: white; 
+    font-family: 'Raleway', sans-serif;
+}
+h3:hover {
+    transition: 0.5s;
+    color:#fff;
+    letter-spacing: 0.22em;
+    text-shadow: 0 0 4px rgba(255,255,255,0.1),
+                0 0 8px rgba(255,255,255,0.1),
+                0 0 12px rgba(255,255,255,0.1),
+                0 0 16px rgba(255,255,255,0.1),
+                0 0 20px rgba(255,255,255,0.1),
+                0 0 40px #fff;
+}
+p{
+    color: white; 
+    font-family: 'Raleway', sans-serif;
+    font-size: large;
+}
+
+#papel{
+    margin: 0px;
+    padding: 0px;
+    transform: scale(.7);
+}
+
+#iconmobile{
+    margin: 0px;
+    padding: 30px;
+    position: relative;
+    left: 420px;
+}
+
+#logomobile{
+    margin: 0px;
+    padding: 30px;
+    position: relative;
+    left: 420px;
+}
+
+#col1{
+    position: absolute;
+    left: 300px;
+    padding: 30px;
+    line-height: 35px;
+}
+
+.container-footer{
+    position: relative;
+}
+
+#col2{
+    position: absolute;
+    left: 700px;
+    padding: 30px;
+    line-height: 35px;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+    box-shadow: 0px 20px 60px 10px rgba(0,0,0,0.75);
+}
+.embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 20px 60px 10px rgba(0,0,0,0.75);}
+
+    /*EFECTO DE TEXTO*/
+
+    :root {
+        --white:#f1f1f1
+    }
+    .letras {
+        margin: 0;
+        padding: 30px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 40px;
+        color: var(--white);
+        letter-spacing: 0.5em;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+    }
+    .letras1 {
+        margin: 0;
+        font-family: 'Raleway', sans-serif;
+        font-size: 40px;
+        color: var(--white);
+        letter-spacing: 0.5em;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+    }
+    .letras2 {
+        margin: 0;
+        font-family: 'Raleway', sans-serif;
+        font-size: 40px;
+        color: var(--white);
+        letter-spacing: 0.5em;
+        background-color: black;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        height: 10vh;
+    }
+    .bold{
+        font-family: 'Montserrat', sans-serif;
+    }
+    div > span {
+        opacity: 0.15;
+    }
+    #I {
+        opacity: 1;
+        animation: flickerI 2s linear  reverse infinite;
+    }
+    #I::after {
+        content: '';
+        width: 150%;
+        -webkit-box-shadow: -35px 0px 60px 8px rgba(255,255,255,1);
+        -moz-box-shadow: -35px 0px 60px 8px rgba(255,255,255,1);
+        box-shadow: -35px 0px 60px 8px rgba(255,255,255,1);
+    }
+    #L, #G {
+        animation: flickerLG 2s linear reverse infinite;
+        position: relative;
+    }
+    #L::after, 
+    #L::before  {
+        content:' ';
+        width: 100px;
+        height: 100px;
+        background: var(--white);
+        position: absolute;
+        top: -50%;
+        left: 100%;
+        border-radius: 100%;
+        opacity: 0.05;
+        filter: blur(10px);
+    }
+    #L::after {
+        width: 200px;
+        height: 200px;
+        top: -150%;
+        left: -5%;
+        opacity: 0.1;
+        filter: blur(10px);
+    }
+    #H {
+        animation: flickerH 2s linear reverse infinite
+    }
+    
+    #T {
+        animation: flickerH 2s linear reverse infinite
+    }
+    
+    @keyframes flickerI {
+        0% {
+            opacity: 0.4;
+        }
+        5% {
+            opacity: 0.5;
+        }
+        10% {
+            opacity: 0.6;
+        }
+        15% {
+            opacity: 0.85;
+        }
+        25% {
+            opacity: 0.5;
+        }
+        30% {
+            opacity: 1;
+        }
+        35% {
+            opacity: 0.1;
+        }
+        40% {
+            opacity: 0.25;
+        }
+        45% {
+            opacity: 0.5;
+        }
+        60% {
+            opacity: 1;
+        }
+        70% {
+            opacity: 0.85;
+        }
+        80% {
+            opacity: 0.4;
+        }
+        90% {
+            opacity: 0.5;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    
+    @keyframes flickerLG {
+        0% {
+            opacity: 0.19;
+        }
+        5% {
+            opacity: 0.2;
+        }
+        10% {
+            opacity: 0.25;
+        }
+        15% {
+            opacity: 0.35;
+        }
+        25% {
+            opacity: 0.2;
+        }
+        30% {
+            opacity: 0.4;
+        }
+        35% {
+            opacity: 0.1;
+        }
+        40% {
+            opacity: 0.25;
+        }
+        45% {
+            opacity: 0.2;
+        }
+        60% {
+            opacity: 0.4;
+        }
+        70% {
+            opacity: 0.35;
+        }
+        80% {
+            opacity: 0.4;
+        }
+        90% {
+            opacity: 0.2;
+        }
+        100% {
+            opacity: 0.4;
+        }
+    }
+    
+    @keyframes flickerH {
+        0% {
+            opacity: 0.15;
+        }
+        5% {
+            opacity: 0.2;
+        }
+        10% {
+            opacity: 0.12;
+        }
+        15% {
+            opacity: 0.2;
+        }
+        25% {
+            opacity: 0.15;
+        }
+        30% {
+            opacity: 0.4;
+        }
+        35% {
+            opacity: 0.05;
+        }
+        40% {
+            opacity: 0.12;
+        }
+        45% {
+            opacity: 0.15;
+        }
+        60% {
+            opacity: 0.3;
+        }
+        70% {
+            opacity: 0.2;
+        }
+        80% {
+            opacity: 0.3;
+        }
+        90% {
+            opacity: 0.18;
+        }
+        100% {
+            opacity: 0.3;
+        }
+    }
+    
+    @keyframes flickerT {
+        0% {
+            opacity: 0.01;
+        }
+        5% {
+            opacity: 0.05;
+        }
+        10% {
+            opacity: 0.03;
+        }
+        15% {
+            opacity: 0.1;
+        }
+        25% {
+            opacity: 0.07;
+        }
+        30% {
+            opacity: 0.1;
+        }
+        35% {
+            opacity: 0.05;
+        }
+        40% {
+            opacity: 0.06;
+        }
+        45% {
+            opacity: 0.1;
+        }
+        60% {
+            opacity: 0.;
+        }
+        70% {
+            opacity: 0.1;
+        }
+        80% {
+            opacity: 0.;
+        }
+        90% {
+            opacity: 0.0;
+        }
+        100% {
+            opacity: 0.1;
+        }
+    }
